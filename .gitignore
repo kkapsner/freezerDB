@@ -7,6 +7,7 @@ files/*
 
 # configurations
 *config.ini
+*Config.ini
 
 # SQL dumps
 *.sql
