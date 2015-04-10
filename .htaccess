@@ -1,0 +1,7 @@
+AddCharset UTF-8 .html .htm
+Options +ExecCGI
+
+<Files *.ini>
+	order deny,allow
+	deny from all
+</Files>

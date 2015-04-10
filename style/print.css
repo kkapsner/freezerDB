@@ -1,0 +1,56 @@
+#content {
+	display: block;
+}
+
+#mainNavigation {
+	display: none;
+}
+
+body {
+	padding: 0;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#content {
+	border-width: 0; 
+}
+
+.printOnly {
+	display: block !important;
+}
+
+.noPrint {
+	display: none !important;
+}
+
+* {
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+input {
+	border: none;
+}
+input[type=button], button {
+	display: none;
+}
+table {
+	border-collapse: collapse;
+}
+table td, table th {
+	border: 1px solid black;
+}
+
+.collection.Eppi {
+	white-space: initial;
+}
+
+[class^=kkjs-table] {
+	display: none;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}

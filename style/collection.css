@@ -1,0 +1,40 @@
+table.collection {
+	border-collapse: collapse;
+}
+
+.collection th {
+	background-color: lightgray;
+}
+
+.collection td {
+	border: 1px dotted gray;
+	padding: 3px;
+}
+
+.collection.Eppi {
+	border: 2px solid black;
+	white-space: nowrap;
+	font-size: 0.9em;
+}
+
+.collection.Eppi * {
+	padding: 3px;
+}
+
+.collection.Eppi col.border {
+	border-right: 2px solid black;
+}
+
+.collection.Eppi th {
+	border: 1px dotted black;
+	border-bottom: 2px solid black;
+}
+
+.kkjs-table-select, .kkjs-table-filter, .kkjs-table-sortControls {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}

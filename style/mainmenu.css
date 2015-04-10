@@ -1,0 +1,41 @@
+/* 
+    Document   : mainmenu
+    Created on : 24.05.2012, 18:10:48
+    Author     : kkapsner
+    Description:
+*/
+
+#mainNavigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#mainNavigation > ul > li {
+	display: inline-block;
+}
+
+#mainNavigation nav {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	border: 1px solid black;
+	z-index: 2;
+}
+
+#mainNavigation li {
+	position: relative;
+	background-color: white;
+	padding: 5px;
+	width: 100px;
+}
+
+#mainNavigation li.active {
+	background-color: lightgray;
+}
+
+#mainNavigation li:hover nav {
+	display: block;
+}
+

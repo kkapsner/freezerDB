@@ -1,0 +1,25 @@
+/* 
+    Document   : Ereignis.css
+    Created on : 15.07.2012, 17:37:23
+    Author     : kkapsner
+    Description:
+        Purpose of the stylesheet follows.
+*/
+article.DBItem table {
+	border-collapse: collapse;
+}
+article.DBItem td {
+	vertical-align: top;
+	padding: 0.25em 0.5em 0.25em 0.2em;
+}
+article.DBItem table tr + tr td {
+	border-top: 1px solid lightgray;
+}
+
+img.DBItemFieldFileItem {
+	max-height: 200px;
+}
+
+.dbItem input, .dbItem select, .dbItem textarea {
+	width: 100%;
+}

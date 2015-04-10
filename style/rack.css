@@ -1,0 +1,19 @@
+.rack table{
+	border-collapse: collapse;
+	
+}
+
+.rack table th {
+	background-color: lightgray;
+	width: 2em;
+	height: 2em;
+	border-style: none;
+}
+
+.rack table td {
+	height: 4em;
+	width: 20em;
+	border: 1px solid lightgray;
+	text-align: center;
+	vertical-align: middle;
+}

@@ -1,0 +1,29 @@
+.box table{
+	border-collapse: collapse;
+	
+}
+
+.box table th {
+	background-color: lightgray;
+	border: 5px solid lightgray;
+	width: 2em;
+	height: 2em;
+}
+
+.box table td {
+	height: 4em;
+	width: 4em;
+	border: 5px solid lightgray;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.box {
+	position: relative;
+}
+
+.box img.DBItemFieldFileItem.image {
+	margin-top: 20px;
+	width: 900px;
+	max-height: initial;
+}

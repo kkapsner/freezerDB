@@ -1,0 +1,40 @@
+/* 
+    Document   : css
+    Created on : 15.07.2012, 17:57:11
+    Author     : kkapsner
+    Description:
+        Purpose of the stylesheet follows.
+*/
+* {
+	font-family: Calibri, Helvetica, Arial;
+}
+
+html {
+	height: 100%;
+	background-color: white;
+}
+
+body {
+	min-height: 100%;
+	/*max-width: 900px;
+	padding: 5px 100px;*/
+	margin: 0 auto;
+}
+
+#main {
+	text-align: center;
+}
+
+#content {
+	display: inline-block;
+	text-align: initial;
+	min-width: 900px;
+	margin: 0 10px;
+}
+
+body > header {
+	text-align: center;
+	/*margin: -5px 0px 0 -100px;
+	padding-left: 100px;
+	height: 54px;*/
+}
