@@ -22,8 +22,8 @@ if (include("login.php")){
 		}
 	}
 	else if (array_key_exists("id", $_GET)){
-		$temp->content = '<h1>Edit ' . $item->view("singleLine") . '</h1><form method="POST" enctype="multipart/form-data">';
 		$item = DBItem::getCLASS($class, $_GET["id"]);
+		$temp->content = '<h1>Edit ' . $item->view("singleLine") . '</h1><form method="POST" enctype="multipart/form-data">';
 		$temp->content .= $item->view("edit", false);
 		$temp->content .= '<button type="submit" name="action" value="save">save</button>' .
 			'<button type="submit" name="action" value="delete">delete</button>' .

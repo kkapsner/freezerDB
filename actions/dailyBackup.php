@@ -9,7 +9,7 @@ if (array_key_exists("forceBackup", $_GET) || !file_exists($fileName)){
 	$dbConfig = new ConfigFile("dbConfig.ini");
 	$dbConfig->load();
 	exec(
-		$config->PATH_TO_MYSQL_DUMP . "mysqldump" .
+		escapeshellarg($config->PATH_TO_MYSQL_DUMP . "mysqldump") .
 		" --user " . escapeshellarg($dbConfig->username) .
 		" --password=" . escapeshellarg($dbConfig->password) . 
 		" freezerDB > " . escapeshellarg($fileName)

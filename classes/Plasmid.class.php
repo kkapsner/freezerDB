@@ -83,7 +83,7 @@ class Plasmid extends SequenceItem{
 			)
 		);
 		
-		return Collection::fromArray($correlations);
+		return Collection::fromArray($correlations, "PlasmidInsertCorrelation");
 	}
 }
 
