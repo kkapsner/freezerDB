@@ -46,6 +46,9 @@ class PlasmidPosition extends ViewableHTML{
 			);
 		}
 		$insertLength = strlen($insertSequence);
+		if ($insertLength === 0){
+			return $positions;
+		}
 		$extendedPlasmidSequence = $plasmidSequence . substr($plasmidSequence, 0, $insertLength - 1);
 		$pos = -1;
 		while (($pos = strpos($extendedPlasmidSequence, $insertSequence, $pos + 1)) !== false){
